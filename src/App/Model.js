@@ -3,7 +3,7 @@ import { homedir } from 'os';
 
 class Model {
   constructor() {
-    this.userName = getUsername();
+    this.username = getUsername();
     this.directory = homedir();
   }
 }
